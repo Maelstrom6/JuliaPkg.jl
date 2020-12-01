@@ -24,7 +24,7 @@ callback functions determining
 - handling of messages and
 - what to respond to them.
 
-With [`genserver`](@ref) she plugs this module into the generic server. The :genserver actor then executes the provided callback functions on startup or on messages.
+With [`double`](@ref) she plugs this module into the generic server. The :genserver actor then executes the provided callback functions on startup or on messages.
 
 Two types of requests can be issued to a server process: [`call`](https://juliaactors.github.io/Actors.jl/dev/api/#Actors.call) and [`cast`](https://juliaactors.github.io/Actors.jl/dev/api/#Actors.cast):
 
