@@ -1,5 +1,7 @@
 module JuliaPkg
 
-# Write your package code here.
+export double
+
+double(x) = 2x
 
 end

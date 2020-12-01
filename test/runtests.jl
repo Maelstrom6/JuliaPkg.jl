@@ -2,5 +2,5 @@ using JuliaPkg
 using Test
 
 @testset "JuliaPkg.jl" begin
-    # Write your tests here.
+    @test double(2) == 4
 end
